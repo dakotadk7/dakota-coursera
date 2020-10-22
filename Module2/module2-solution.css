@@ -7,7 +7,10 @@
 *{
 	font-family: sans-serif;
 	box-sizing: border-box;
+}
 
+h1{
+	font-size: 175%;
 }
 
 body{
@@ -25,13 +28,15 @@ p#p1{
 	border: solid 3px;
 	float: left;
 	padding: 10px;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 p#p11{
+	margin-top: 16px;
 	position: absolute;
 	background-color: #ca6969;
 	border: solid 3px;
+	font-size: 125%;
 	text-align: center;
 }
 
@@ -40,13 +45,15 @@ p#p2{
 	border: solid 3px;
 	float: left;
 	padding: 10px;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 p#p22{
+	margin-top: 16px;
 	position: absolute;
 	background-color: #b02424;
 	border: solid 3px;
+	font-size: 125%;
 	text-align: center;
 }
 
@@ -55,13 +62,15 @@ p#p3{
 	border: solid 3px;
 	float: left;
 	padding: 10px;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 p#p33{
+	margin-top: 16px;
 	position: absolute;
 	background-color: #dce0af;
 	border: solid 3px;
+	font-size: 125%;
 	text-align: center;
 }
 
@@ -73,8 +82,6 @@ p#p33{
 p#p1{
 	width: 30%;
 	margin-left: 2.5%;
-	padding: 10px;
-	padding-top: 25px;
 	height: 200px;
 }
 
@@ -87,8 +94,6 @@ p#p11{
 p#p2{
 	width: 30%;
 	margin-left: 2.5%;	
-	padding: 10px;
-	padding-top: 25px;
 	height: 200px;
 }
 
@@ -101,8 +106,6 @@ p#p22{
 p#p3{
 	width: 30%;
 	margin-left: 2.5%;	
-	padding: 10px;
-	padding-top: 25px;
 	height: 200px;
 }
 
@@ -149,7 +152,7 @@ p#p3{
 p#p33{
 
 	left: 87.5%;
-	top: 262px;
+	top: 252px;
 	width: 10%;
 }
 }
@@ -178,7 +181,7 @@ p#p2{
 
 p#p22{
 	left: 75%;
-	top: 262px;
+	top: 252px;
 	width: 20%;
 }
 
@@ -190,7 +193,7 @@ p#p3{
 
 p#p33{
 	left: 75%;
-	top: 444px;
+	top: 434px;
 	width: 20%;
 }
 }
