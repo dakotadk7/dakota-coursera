@@ -1,0 +1,196 @@
+
+
+
+/********************************************** Base Styles*/
+
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: #f8f8f8;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	text-align: center;
+}
+
+p#p1{
+	background-color: #686868;
+	border: solid 3px;
+	float: left;
+	padding: 10px;
+	padding-top: 25px;
+}
+
+p#p11{
+	position: absolute;
+	background-color: #ca6969;
+	border: solid 3px;
+	text-align: center;
+}
+
+p#p2{
+	background-color: #686868;
+	border: solid 3px;
+	float: left;
+	padding: 10px;
+	padding-top: 25px;
+}
+
+p#p22{
+	position: absolute;
+	background-color: #b02424;
+	border: solid 3px;
+	text-align: center;
+}
+
+p#p3{
+	background-color: #686868;
+	border: solid 3px;
+	float: left;
+	padding: 10px;
+	padding-top: 25px;
+}
+
+p#p33{
+	position: absolute;
+	background-color: #dce0af;
+	border: solid 3px;
+	text-align: center;
+}
+
+/********************************************** Media Query For Large Devices*/
+
+
+@media (min-width: 992px){
+
+p#p1{
+	width: 30%;
+	margin-left: 2.5%;
+	padding: 10px;
+	padding-top: 25px;
+	height: 200px;
+}
+
+p#p11{
+	position: absolute;
+	left: 25%;
+	width: 7.5%;
+}
+
+p#p2{
+	width: 30%;
+	margin-left: 2.5%;	
+	padding: 10px;
+	padding-top: 25px;
+	height: 200px;
+}
+
+p#p22{
+	position: absolute;
+	left: 57.5%;
+	width: 7.5%;
+}
+
+p#p3{
+	width: 30%;
+	margin-left: 2.5%;	
+	padding: 10px;
+	padding-top: 25px;
+	height: 200px;
+}
+
+p#p33{
+	position: absolute;
+	left: 90%;
+	width: 7.5%;
+}
+}
+
+/********************************************** Media Query For Medium Devices*/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+p#p1{
+	width: 45%;
+	margin-left: 2.5%;
+	margin-right: 5%;
+	height: 150px;
+}
+
+p#p11{
+	left: 37.5%;
+	width: 10%;
+}
+
+p#p2{
+	width: 45%;	
+	height: 150px;
+}
+
+p#p22{
+	left: 87.5%;
+	width: 10%;
+}
+
+p#p3{
+	width: 95%;
+	margin-left: 2.5%;	
+	height: 110px;
+}
+
+p#p33{
+
+	left: 87.5%;
+	top: 262px;
+	width: 10%;
+}
+}
+
+/********************************************** Media Query For Small Devices*/
+
+
+@media (max-width: 767px){
+
+p#p1{
+	width: 90%;
+	margin-left: 5%;
+	height: 150px;
+}
+
+p#p11{
+	left: 75%;
+	width: 20%;
+}
+
+p#p2{
+	width: 90%;
+	margin-left: 5%;	
+	height: 150px;
+}
+
+p#p22{
+	left: 75%;
+	top: 262px;
+	width: 20%;
+}
+
+p#p3{
+	width: 90%;
+	margin-left: 5%;	
+	height: 150px;
+}
+
+p#p33{
+	left: 75%;
+	top: 444px;
+	width: 20%;
+}
+}
