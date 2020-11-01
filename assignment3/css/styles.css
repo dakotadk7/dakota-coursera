@@ -1,0 +1,78 @@
+
+/*** Main site CSS ***/
+body{
+	background-color: #0c1e2f;
+}
+
+nav{
+	background-color: #dededa;
+	border-bottom: solid #330f0f;
+}
+
+hr{
+	width: 75%;
+	color: #330f0f;
+}
+
+#HEAD{
+	font-size: 2rem;
+	color: #330f0f;
+	font-weight: bold;
+}
+
+div.col-xl{
+	background-color: #d2af58;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: solid #0b332e;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#Chicken{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+#menu{
+	color: #d2af58;
+	font-size: 3rem;
+	width: 230px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+body .navbar .collapse .navbar-nav .nav-item .nav-link{
+	color: #330f0f;
+	margin-left: none;
+	margin-right: none;
+	text-align: center;
+}
+#collapse{
+	color: #330f0f;
+	margin-left: none;
+	margin-right: none;
+	text-align: center;
+
+}
+
+
+
+/*** Small size and up ***/
+@media (min-width: 768px){	
+/*** Used to hide the nav buttons when not in phone size ***/
+	li{
+		visibility: hidden;
+	}
+}
+
+
+/*** Extra small size only ***/
+@media (max-width: 767px){
+	div.col-xl{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
